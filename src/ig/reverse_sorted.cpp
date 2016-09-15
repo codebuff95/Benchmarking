@@ -17,7 +17,7 @@ int main(){
 	for(int i = 0; i < n; i++){
 		v[i] = rand()%100000;
 	}
-	sort(v.begin(),v.end(),less<int>());
+	sort(v.begin(),v.end(),greater<int>());
 	for(int i = 0; i < n; i++){
 		cout<<v[i]<<"\n";
 	}
