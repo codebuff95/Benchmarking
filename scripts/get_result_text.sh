@@ -28,10 +28,10 @@ do
 		printf "\n,Runtime(in ms),"
 		for size in ${sizes[@]}
 		do
-			printf $(../bin/${sortnamewithoutextension}.exe < ../inputs/${igname}_${size}.input)
+			printf $(../bin/cpp/${sortnamewithoutextension}.exe < ../inputs/${igname}_${size}.input)
 			printf ","
 		done
 		printf "\n\n"
 	done
 	printf "\n\n"
-done < <(ls ../src | grep '\.cpp$')
+done < <(ls ../src/cpp | grep '\.cpp$')

@@ -2,7 +2,7 @@
 while read sortname
 do
 	sortnamewithoutextension=$(basename "$sortname" .cpp)
-	g++ ../src/${sortname} -o ../bin/${sortnamewithoutextension}.exe
+	g++ ../src/cpp/${sortname} -o ../bin/cpp/${sortnamewithoutextension}.exe
 	#echo $sortname
 	#echo $sortnamewithoutextension
-done < <(ls ../src | grep '\.cpp$')
+done < <(ls ../src/cpp | grep '\.cpp$')
