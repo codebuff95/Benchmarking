@@ -41,7 +41,6 @@ void outarray(int *a, int n){
 	cout<<"\n";
 }
 int main(){
-	ulli start = getUlliMsTime();
 	int n;
 	//cout<<"Enter number of elements: ";
 	cin>>n;
@@ -53,6 +52,7 @@ int main(){
 	}
 	//cout<<"You entered: ";
 	//outarray(a,n);
+	ulli start = getUlliMsTime();
 	quicksort(a,0,n-1);
 	//cout<<"Array after sort is: ";
 	//outarray(a,n);

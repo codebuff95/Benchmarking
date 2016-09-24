@@ -25,7 +25,6 @@ void insertionsort(int *a, int n){
 	cout<<"\n";
 }*/
 int main(){
-	ulli start = getUlliMsTime();
 	int n;
 	//cout<<"Enter number of elements: ";
 	cin>>n;
@@ -37,6 +36,7 @@ int main(){
 	}
 	//cout<<"You entered: ";
 	//outarray(a,n);
+	ulli start = getUlliMsTime();
 	insertionsort(a,n);
 	//cout<<"Array after sort is: ";
 	//outarray(a,n);

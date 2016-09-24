@@ -1,4 +1,4 @@
-#Sorts Benchmarking  
+#Benchmarking  
 ##by Tanmay Garg  
 ###tanmaygarg.dev@gmail.com  
 ---
